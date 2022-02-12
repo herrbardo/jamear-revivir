@@ -24,7 +24,7 @@ public class CharacterController : MonoBehaviour
        
         if (Input.GetButton("Fire1")) //click izquierdo o barra espaciadora salvo que se cambie
         {
-            Instantiate(bala, pointer); 
+            Instantiate(bala, pointer.position, pointer.rotation); 
         }
     }
 
