@@ -69,6 +69,8 @@ public class CharacterController2D : MonoBehaviour
 					OnLandEvent.Invoke();
 			}
 		}
+
+		Debug.Log("GROUNDED: " + m_Grounded);
     }
 
 	public void Move(float move, bool crouch, bool jump)
